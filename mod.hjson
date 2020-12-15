@@ -4,3 +4,4 @@ author: "[yellow]RT[cyan]Omega"
 description: "A Completely new gamemode!"
 version: "0.1"
 minGameVersion: 120
+hidden: true
