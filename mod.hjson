@@ -1,7 +1,7 @@
 name: "omegacursed"
 displayName: "Omega-Cursed.bat"
 author: "[yellow]RT[cyan]Omega"
-description: "A Completely new gamemode!"
-version: "0.1"
+description: "[sky]A Completely new gamemode!"
+version: "0.2"
 minGameVersion: 120
 hidden: true
