@@ -25,5 +25,6 @@ Blocks.unloader.speed = 1000;
 
 Blocks.hail.targetAir = true;
 
+Blocks.thermalGenerator.attribute = Attribute.water;
 
 
