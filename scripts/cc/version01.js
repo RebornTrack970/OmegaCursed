@@ -16,7 +16,7 @@ Blocks.oreScrap.itemDrop = Items.surgeAlloy;
 Blocks.water.itemDrop = Items.blastCompound;
 Blocks.water.liquidDrop = Liquids.cryofluid;
 
-SectorPreset("maze", Planets.serpulo, 173);
+SectorPreset("maze", Planets.serpulo, 173).alwaysUnlocked = true;
 
 Blocks.solarPanel.powerProduction = 20000000;
 
