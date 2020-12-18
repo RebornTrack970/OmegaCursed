@@ -41,3 +41,14 @@ Blocks.oreCopper.itemDrop = Items.lead;
 
 Blocks.thoriumReactor.consumes.liquid(Liquids.slag, 0.02 / 1).update(false);
 Blocks.thoriumReactor.heating = 0.02
+
+const waterFloor = ["Blocks.deepwater", "Blocks.water", "Blocks.taintedWater", "Blocks.darksandTaintedWater", "Blocks.sandWater", "Blocks.darksandWater"];
+
+var i;
+for(i = 0; i < 6; i++){eval(waterFloor[i] + ".attributes.set(Attribute.heat, 0.85)"),
+eval(waterFloor[i] + ".status = StatusEffects.burning")/*,
+eval(waterFloor[i] + ".liquidDrop = Liquids.slag")*/
+};
+
+Blocks.slag.status = StatusEffects.wet;
+Blocks.slag.liquidDrop = Liquids.water;
