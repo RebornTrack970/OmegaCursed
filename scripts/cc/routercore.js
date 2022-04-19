@@ -1,1 +1,0 @@
-Blocks.router = extend(CoreBlock, "router", {});
