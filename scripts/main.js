@@ -56,7 +56,6 @@ Blocks.thoriumReactor.heating = 0.02;
 Blocks.payloadPropulsionTower.range = 2000;
 Blocks.foreshadow.range = 50;
 Blocks.fuse.range = 500;
-Blocks.lancern.damage = 5;
 Blocks.vault.itemCapacity = 50;
 Blocks.container.itemCapacity = 3000;
 Blocks.slag.status = StatusEffects.wet;
@@ -111,3 +110,8 @@ amogus.atmosphereColor = Color.valueOf("ff000022");
 amogus.startSector = 10;
 amogus.atmosphereRadIn = 0.1;
 amogus.atmosphereRadOut = 0.3;
+
+// do the funny (1% chance)
+Events.on(EventType.ClientLoadEvent, () => {
+	if (Math.random()*100 < 1) {Core.app.openURI("https://bit.ly/gdy2ibdiy")}
+})
